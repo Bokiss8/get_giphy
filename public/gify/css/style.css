@@ -1,0 +1,31 @@
+body {
+    background:rgb(72, 2, 119);
+    color:rgb(121, 153, 6);
+}
+    /* unvisited link */
+/*a:link {
+    color: red;
+}*/
+/* visited link */
+/*a:visited {
+    color: green;
+}*/
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+.b1{
+background: mediumspringgreen;
+color: rgb(92, 27, 4);
+border-radius: 20%;
+}
+.b1:hover{
+    background: rgb(0, 221, 250);
+    color: rgb(90, 67, 192);
+    border-radius: 20%;
+    }
+    
