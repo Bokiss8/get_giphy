@@ -11,13 +11,18 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^14.14.41",
+    "browserify": "^17.0.0",
     "bufferlist": "^0.1.0",
     "file-api": "^0.10.4",
     "node-fetch": "^2.6.1",
+    "phpcgijs": "^1.0.0-beta7",
     "request": "^2.88.2",
+    "uniq": "^1.0.1",
+    "url-parse": "^1.5.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "webpack": "^5.33.2"
   }
 }
