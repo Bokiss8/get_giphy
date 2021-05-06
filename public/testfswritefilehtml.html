@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TEST</title>
+</head>
+<body>
+
+<button onclick="write_text()">WRITE FILE</button>
+
+<script>
+    function write_text(){
+        var fs = require('fs');
+
+        fs.writeFile("test.txt", "okay this is epic", function(err){
+            if (err) return console.log(err);
+            console.log("Nice");
+        });
+    };
+</script>
+
+</body>
+</html>

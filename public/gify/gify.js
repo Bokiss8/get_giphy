@@ -106,7 +106,8 @@ function init() {
         //     }
         //   }
         //    document.querySelectorAll('.test').forEach((n, i) => n.outerHTML = arrayHtml + selectionHtml);
-           //----------------------------------------------------------------
+        //----------------------------------------------------------------
+        //все що нижче це блок витяжки картинки за посиланням та збереження її в файл-картинку
           var base64String = 'ops';
           var fs = require('fs'); // importing file system modules of node js
           const path = require('path');
