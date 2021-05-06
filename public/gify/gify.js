@@ -95,19 +95,11 @@ function init() {
         document.querySelectorAll('.out_r').forEach((n, i) => n.innerHTML = strokalevel_r);
 
           //------------------------------------------------------------------------
-        //    var array = [2,4,5,1,11,4,1];
-        //  var arrayHtml = '<div>массив: </div>';
-        // var selectionHtml = '<div>больше 5</div>';
-        //  for (let i=0; i<array.length; i++) {
-        // var element = array[i];
-        //  arrayHtml += '<div>' + i + ':' + element + '</div>';
-        // if (element > 5) {
-        // selectionHtml += '<div>' + i + ':' + element + '</div>';
-        //     }
-        //   }
-        //    document.querySelectorAll('.test').forEach((n, i) => n.outerHTML = arrayHtml + selectionHtml);
+        
+        
         //----------------------------------------------------------------
         //все що нижче це блок витяжки картинки за посиланням та збереження її в файл-картинку
+        //но он в браузере не работает только на серваке.
           var base64String = 'ops';
           var fs = require('fs'); // importing file system modules of node js
           const path = require('path');
