@@ -1,6 +1,6 @@
-global.window = {document: {createElementNS: () => {return {}} }};
-global.navigator = {};
-global.btoa = () => {};
+// global.window = {document: {createElementNS: () => {return {}} }};
+// global.navigator = {};
+// global.btoa = () => {};
 
 var base64String = 'ops';
 var fs = require('fs'); // importing file system modules of node js
@@ -15,7 +15,7 @@ request.get(getlink, function (error, response, body) {
        //console.log(base64String);
      //------------------------------------------------------------------------------------
      // The absolute path of the new file with its name
-     var filepath = "./images/bokiss.gif";
+     var filepath = "./public/gify/images/bokiss.gif";
      // Save with a buffer as content from a base64 image
      fs.writeFile(filepath, new Buffer.from(base64String, "base64"), (err) => {
      if (err) throw err;
